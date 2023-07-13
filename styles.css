@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.content{
+    width: 50%;
+    height: 80%;
+    background-color: rgb(254, 254, 254);
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+}
+
+th{
+    width: 30%;
+    background-color: #ffffff;
+}
+
+td{
+    width: 30%;
+    background-color: #f0e3fa;
+}
+
+.button{
+    text-align: center;
+    background-color: #f9e3f1;
+    width: 7%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #fff;
+}

@@ -23,7 +23,11 @@ function addTask(){
         type: 'POST',
         data:{
             'name': name
+        },
+        success: function(response){
+            console.log("succes");
         }
-        }).done(function(){console.log('succes');
         });
+        
+        //window.location.href = 'delete.php';
     }

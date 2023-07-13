@@ -18,7 +18,6 @@ function addTask(){
 
 
   function del(name){
-    console.log(document.getElementById(name));
       $.ajax({
         url: 'http://localhost:3000/delete.php',
         type: 'POST',
